@@ -12,7 +12,7 @@ def get_numbers_from_user():
             num = float(raw)
             numbers.append(num)
         except ValueError:
-            print("❌ Invalid input. Please enter a numeric value or 'done'.")
+            print(" Invalid input. Please enter a numeric value or 'done'.")
     return numbers
 
 
