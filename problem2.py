@@ -11,7 +11,7 @@ def celsius_to_fahrenheit(celsius):
     try:
         return round((float(celsius) * 9/5) + 32, 2)
     except ValueError:
-        print("❌ Invalid input: please enter a number.")
+        print("Invalid input: please enter a number.")
         return None
 
 
@@ -23,7 +23,7 @@ def fahrenheit_to_celsius(fahrenheit):
     try:
         return round((float(fahrenheit) - 32) * 5/9, 2)
     except ValueError:
-        print("❌ Invalid input: please enter a number.")
+        print("Invalid input: please enter a number.")
         return None
 
 
@@ -46,9 +46,9 @@ def temperature_converter():
             converted = fahrenheit_to_celsius(temp)
             print(f"{temp}°F = {converted}°C")
         else:
-            print("❌ Invalid unit. Please enter 'C' or 'F'.")
+            print("Invalid unit. Please enter 'C' or 'F'.")
     except ValueError:
-        print("❌ Please enter a valid numeric value for temperature.")
+        print("Please enter a valid numeric value for temperature.")
 
 
 # Test cases (DO NOT MODIFY)
