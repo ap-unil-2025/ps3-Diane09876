@@ -58,7 +58,7 @@ if __name__ == "__main__":
     assert celsius_to_fahrenheit(100) == 212, "100°C should be 212°F"
     assert fahrenheit_to_celsius(32) == 0, "32°F should be 0°C"
     assert fahrenheit_to_celsius(212) == 100, "212°F should be 100°C"
-    print("✅ All tests passed!\n")
+    print("All tests passed!\n")
 
     # Run interactive converter
     temperature_converter()
